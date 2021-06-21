@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="@string/vocale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AA"
+                android:text="AA"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AE"
+                android:text="AE"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AH"
+                android:text="AH"
+                />
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AO"
+                android:text="AO"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AX"
+                android:text="AX"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/AXR"
+                android:text="AXR"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/EH"
+                android:text="EH"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/ER"
+                android:text="ER"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:gravity="center"
+                style="@style/ButtonSound"
+                android:id="@+id/IH"
+                android:text="IH"
+                />
+
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/IX"
+                android:text="IX"
+                />
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/IY"
+                android:text="IY"
+                />
+            <Button
+                style="@style/ButtonSound"
+                android:id="@+id/UH"
+                android:text="UH"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_span="2"
+                style="@style/ButtonSound"
+                android:id="@+id/UW"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="UW"
+                />
+            <Button
+                android:layout_span="2"
+                style="@style/ButtonSound"
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/UX"
+                android:text="UX"
+                />
+
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="Consoane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/B"
+                android:backgroundTint="@color/greenBlue"
+                android:text="B"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/CH"
+                android:text="CH"
+                android:backgroundTint="@color/greenBlue"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/D"
+                android:backgroundTint="@color/greenBlue"
+                android:text="D"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/DH"
+                android:backgroundTint="@color/greenBlue"
+                android:text="DH"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/DX"
+                android:text="DX"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/F"
+                android:text="F"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/G"
+                android:text="G"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/HH"
+                android:backgroundTint="@color/greenBlue"
+                android:text="HH"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/JH"
+                android:text="JH"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/K"
+                android:text="K"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/L"
+                android:text="L"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:backgroundTint="@color/greenBlue"
+                android:id="@+id/M"
+                android:text="M"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/N"
+                android:text="N"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/NG"
+                android:text="NG"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/P"
+                android:text="P"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:backgroundTint="@color/greenBlue"
+                android:id="@+id/Q"
+                android:text="Q"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/R"
+                android:text="R"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/S"
+                android:text="S"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/SH"
+                android:text="SH"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:backgroundTint="@color/greenBlue"
+                android:id="@+id/T"
+                android:text="T"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/V"
+                android:text="V"
+                />
+
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/W"
+                android:text="W"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:id="@+id/WH"
+                android:text="WH"
+                />
+            <Button
+                style="@style/ButtonSoundGreen"
+                android:backgroundTint="@color/greenBlue"
+                android:id="@+id/Y"
+                android:text="Y"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_span="4"
+                style="@style/ButtonSoundGreen"
+                android:backgroundTint="@color/greenBlue"
+                android:id="@+id/TH"
+                android:text="TH"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

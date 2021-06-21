@@ -1,0 +1,98 @@
+<h3>What is specific language impairment (SLI)?</h3>
+<p>
+Specific language impairment (SLI) is a communication disorder that <span style="color:#ba6b6c;">interferes with the development of language skills in
+children who have no hearing loss or intellectual disabilities.</span> SLI can affect a child’s speaking, listening, reading, and writing.
+SLI is also called <span style="color:#ba6b6c;">developmental language disorder, language delay, or developmental dysphasia.</span>
+It is one of the most common developmental disorders, affecting approximately 7 to 8 percent of children in kindergarten.
+The impact of SLI usually persists into adulthood.
+</p>
+
+<h3>What causes SLI?</h3>
+<p>
+The cause of SLI is unknown, but recent discoveries <span style="color:#ba6b6c;">suggest that it has a strong genetic link.</span> Children with SLI are more likely than
+those without SLI to have parents and siblings who have also had difficulties and delays in speaking.
+In fact, <span style="color:#ba6b6c;">50 to 70 percent of children with SLI have at least one family member with the disorder.</span>
+</p>
+<p>
+Learning more than one language at a time does not cause SLI. The disorder can, however, <span style="color:#ba6b6c;">affect both multilingual children and children
+who speak only one language.</span>
+</p>
+<h3>What are the symptoms of SLI?</h3>
+<p>A child with SLI often has a history of being a late talker (reaching spoken language milestones later than peers).
+</p>
+Preschool-aged children with SLI may:
+<ul>
+<li>Be late to put words together into sentences.</li>
+<li>Struggle to learn new words and make conversation.</li>
+<li>Have difficulty following directions, not because they are stubborn, but because they do not fully understand the words spoken to them.</li>
+<li>Make frequent grammatical errors when speaking.</li>
+</ul>
+Although some late talkers eventually catch up with peers, children with SLI have persistent language difficulties. Symptoms common in
+older children and adults with SLI include:
+<ul>
+<li>Limited use of complex sentences.</li>
+<li>Difficulty finding the right words.</li>
+<li>Difficulty understanding figurative language.</li>
+<li>Reading problems.</li>
+<li>Disorganized storytelling and writing.</li>
+<li>Frequent grammatical and spelling errors.</li>
+</ul>
+<h3>How is SLI diagnosed?</h3>
+<p>
+If a doctor, teacher, or parent suspects that a child has SLI, a speech-language pathologist
+(a professional trained to assess and treat people with speech or language problems) can evaluate the child’s language skills.
+The type of evaluation depends on the child's age and the concerns that led to the evaluation. In general, an evaluation includes:
+</p>
+<h5>Direct observation of the child.</h5>
+<ul>
+<li>Interviews and questionnaires completed by parents and/or teachers.</li>
+<li>Assessments of the child’s learning ability.</li>
+<li>Standardized tests of current language performance.</li>
+</ul>
+<p>These tools allow the speech-language pathologist to compare the child's language skills to those of same-age peers,
+identify specific difficulties, and plan for potential treatment targets.
+</p>
+<h3>Is SLI the same thing as a learning disability?</h5>
+    <p>SLI is not the same thing as a learning disability. Instead, SLI is <span style="color:#ba6b6c;">a risk factor for learning disabilities,</span>
+ since problems with basic language skills affect classroom performance.
+ This means that children with SLI are more likely to be diagnosed with a learning disability than children who do not have SLI.
+ They may <span style="color:#ba6b6c;">struggle with translating letters into sounds for reading.</span> Their writing skills may be weakened
+ by grammatical errors, limited vocabulary, and problems with comprehension and organizing thoughts into coherent sentences.
+ Difficulties with language comprehension can make <span style="color:#ba6b6c;">mathematical word problems challenging.</span>
+ Some children with SLI may show signs of dyslexia. By the time they reach adulthood, people with SLI are <span style="color:#ba6b6c;">six times more likely to be
+ diagnosed with reading and spelling disabilities and four times more likely to be diagnosed with math disabilities</span> than those who do not
+ have SLI.
+</p>
+<h3>Is SLI a lifelong condition?</h3>
+<p>
+SLI is a developmental disorder, which means that its symptoms first appear in childhood. This does not mean that, as children develop,
+they grow out of the problem. Instead, the problem is <span style="color:#ba6b6c;">apparent in early childhood and will likely continue,</span> but change, with development.
+For instance, a young child with SLI might use ungrammatical sentences in conversation, while a young adult with SLI might avoid complex
+ sentences in conversations and <span style="color:#ba6b6c;">struggle to produce clear, concise, well-organized, and grammatically accurate writing.</span>
+Early treatment during the preschool years can improve the skills of many children with language delays, including those with SLI.
+Children who enter kindergarten with significant language delays are likely to continue having problems, but they and even older children
+can still benefit from treatment. Many adults develop strategies for managing SLI symptoms. This can improve their daily social, family,
+and work lives.
+</p>
+<h3>What treatments are available for SLI?</h3>
+<p>
+Treatment services for SLI are typically provided or overseen by a licensed speech-language pathologist.
+Treatment may be provided in <span style="color:#ba6b6c;">homes, schools, university programs for speech-language pathology, private
+clinics, or outpatient hospital settings.</span>
+Identifying and treating children with SLI early in life is ideal, but people can respond well to treatment
+regardless of when it begins. Treatment depends on the age and needs of the person. Starting treatment early can help young children to:
+</p>
+<ul>
+<li>Acquire missing elements of grammar.</li>
+<li>Expand their understanding and use of words.</li>
+<li>Develop social communication skills.</li>
+</ul>
+For school-age children, treatment may focus on understanding instruction in the classroom, including helping with issues such as:
+<ul>
+<li>Following directions.</li>
+<li>Understanding the meaning of the words that teachers use.</li>
+<li>Organizing information.</li>
+<li>Improving speaking, reading, and writing skills.</li>
+</ul>
+Adults entering new jobs, vocational programs, or higher education may need help learning technical vocabulary or
+improving workplace writing skills.

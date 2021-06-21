@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginBottom="50dp"
+    android:background="@color/colorLight"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/teacher"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/teacher" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/teacher"
+        android:textStyle="bold"
+        android:textColor="@color/greenBlue"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/use_your_account_to_assign_homeworks_to_a_class_of_students_and_follow_their_progress"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/startTeacher"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@color/lightGreen"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/student"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/learn_english_or_improve_your_knowledge_with_pronunciation_and_grammar_exercises"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="center"
+            app:backgroundTint="@color/greenBlue"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/startStudent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/student"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+</LinearLayout>
+
+</LinearLayout>

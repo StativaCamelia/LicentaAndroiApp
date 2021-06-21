@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brightRed">#e60000</color>
+    <color name="colorPrimary">#ef9a9a</color>
+    <color name="colorPrimaryDark">#ba6b6c</color>
+    <color name="colorAccent">#ffcccb</color>
+    <color name="colorLight">#ffebee</color>
+    <color name="lightGreen">#cdece7</color>
+    <color name="darkGreen">#97b498</color>
+    <color name="lightBlue">#bbdefb</color>
+    <color name="lightPurple">#b5b7dd</color>
+    <color name="lightYellow">#fffde7</color>
+    <color name="veryDarkGreen">#466055</color>
+    <color name="yellow">#f2e3e2</color>
+    <color name="red">#ff8661</color>
+    <color name="darkBlue">#3c5480</color>
+    <color name="green">#96e5ac</color>
+    <color name="ocru">#dbc54b</color>
+    <color name="beige">#f8f1e1</color>
+    <color name="bluePurple">#c4d6ee</color>
+    <color name="darkOrange">#f5a13f</color>
+    <color name="greenBlue">#75d0d1</color>
+    <color name="orange">#ffc5c3</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#707070</color>
+    <color name="adultMenu1">#a5d6a7</color>
+    <color name="adultMenu2">#d7ffd9</color>
+    <color name="adultMenu3">#c5e1a5</color>
+    <color name="adultMenu4">#f8ffd7</color>
+    <color name="adultMenu5">#e1ffb1</color>
+</resources>

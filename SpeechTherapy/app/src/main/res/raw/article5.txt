@@ -1,0 +1,22 @@
+<h3>How are speech disorders diagnosed?</h3>
+Many tests are available to diagnose speech disorders.
+
+<h3>Denver articulation screening exam</h3>
+<p>
+The Denver articulation screening examination (DASE) is a commonly used testing system to diagnose articulation disorders.
+This test <span style="color:#ba6b6c;">evaluates the clarity in pronunciation</span> in children between the ages of 2 and 7.
+This five-minute test uses various exercises to assess the child’s speech.
+</p>
+
+<h3>Early language milestones scale 2</h3>
+<p>
+This test, created by neurodevelopmental pediatrician James Coplan, <span style="color:#ba6b6c;">determines a child’s language development.</span>
+This test can quickly identify delayed speech or language disorders.
+</p>
+<h3>Peabody picture vocabulary test, revised</h3>
+<p>
+This test <span style="color:#ba6b6c;">measures a person’s vocabulary and ability to speak.</span>
+The person will listen to various words and choose pictures that describe the words.
+People who have severe intellectual disabilities and those who are blind won’t able to take this assessment.
+The Peabody picture vocabulary test has been revised many times since its first version was administered in 1959.
+</p>

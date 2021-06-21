@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="137dp"
+        android:layout_margin="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/container"
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/articleImage"
+                app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:text="@string/student_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:textColor="@color/darkOrange"
+                android:id="@+id/actualAnswer"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:text="Title 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15sp"
+               />
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:text="@string/actual_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:textColor="@color/darkOrange"
+                android:id="@+id/correctAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:text="Title 2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15sp" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/articleImage"
+                android:layout_width="172dp"
+                android:layout_height="137dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/info_kidarticle"
+                app:layout_constraintEnd_toStartOf="@id/container"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

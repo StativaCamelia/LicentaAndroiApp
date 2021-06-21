@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:id="@+id/titleGrammar"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        android:text="@string/write_what_you_hear"
+        android:gravity="center"
+        android:textSize="40sp"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+    <ImageView
+        android:id= "@+id/imagePlaceGrammar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/listenGrammarButtonChild"
+        app:layout_constraintTop_toBottomOf="@id/titleGrammar"
+        android:contentDescription="@string/todo" />
+    <LinearLayout
+        android:id="@+id/listenGrammarButtonChild"
+        android:backgroundTint="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintTop_toBottomOf="@+id/titleGrammar"
+        tools:targetApi="lollipop">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/childGrammarListen"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/listen_button"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="33dp"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/childWord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/white"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/grammarListenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/custom_listen_button" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

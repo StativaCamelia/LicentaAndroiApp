@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87805676068",
+    "firebase_url": "https://speech-45c9c.firebaseio.com",
+    "project_id": "speech-45c9c",
+    "storage_bucket": "speech-45c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87805676068:android:254eab590da5950058a6b1",
+        "android_client_info": {
+          "package_name": "com.example.speechtherapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87805676068-d1h1g00b32801rjnhk1858ibqi55qaok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.speechtherapy",
+            "certificate_hash": "6956ccca85151770b19cdd183c1a2edfa950437c"
+          }
+        },
+        {
+          "client_id": "87805676068-pl1t7i2q63r2s592c48jqu39jdv74eed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgWiM33-vlh6j9xbJLxsYpl1OnellkecE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87805676068-03j6qhvfgmi03m3cgurvrq3survg002i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

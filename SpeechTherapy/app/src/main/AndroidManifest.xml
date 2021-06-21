@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.speechtherapy">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:fullBackupContent="true"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.contactActivity.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.AuthActivity"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.SelectCategory"
+        />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.LanguageActivity"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.menuActivities.AdultMenu"
+            android:parentActivityName=".bundles.registerActivities.SelectCategory" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.menuActivities.ChildMenu"
+            android:parentActivityName=".bundles.registerActivities.SelectCategory" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.informationActivity.InformationActivity"
+            android:parentActivityName=".bundles.menuActivities.AdultMenu" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.speechRecognisionActivity.ExerciseRecordingActivity"
+            android:parentActivityName=".bundles.menuActivities.AdultMenu"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.speechtherapy.bundles.speechRecognisionActivity.adultCustomSpeechVerify.CustomSpeechVerify"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.grammarActivities.child.ChildGrammarTest"
+            android:parentActivityName=".bundles.speechRecognisionActivity.wordList.WordsList"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.grammarActivities.adult.AdultGrammarTest"
+            android:parentActivityName=".bundles.menuActivities.AdultMenu"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.speechtherapy.bundles.speechRecognisionActivity.adultExerciseSpeech.AdultSpeech"
+             />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.grammarActivities.wordsTypeMenu.WordsTypeActivity"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.speechRecognisionActivity.wordList.WordsList"
+            android:parentActivityName=".bundles.menuActivities.ChildMenu"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.speechtherapy.bundles.speechRecognisionActivity.childSpeech.ChildSpeechVerify"
+            android:parentActivityName=".bundles.menuActivities.ChildMenu"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.profile.ProfileActivityStudent"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.profile.ProfileActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.SelectUserType"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.ClassesActivityTeacher"
+            android:parentActivityName=".bundles.registerActivities.profile.ProfileActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.StudentsActivityTeacher"
+            android:parentActivityName=".bundles.classesActivities.teacher.ClassesActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.homeworkExercises.AdultListHomeworkTeacher"
+            android:parentActivityName=".bundles.classesActivities.teacher.ClassesActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.homeworkExercises.ChildListHomeworkTeacher"
+            android:parentActivityName=".bundles.classesActivities.teacher.ClassesActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.homeworkExercises.pronunciation.PronunciationHomeworkActivity"
+            android:parentActivityName=".bundles.classesActivities.student.homeworkExercises.AdultListHomework"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.homeworkExercises.grammar.GrammarHomeworkActivity"
+            android:parentActivityName=".bundles.classesActivities.student.homeworkExercises.AdultListHomework"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.homeworkExercises.pronunciation.PronunciationResponse"
+            android:parentActivityName=".bundles.classesActivities.student.homeworkExercises.pronunciation.PronunciationHomeworkActivity"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.ClassesActivityStudent"
+            android:parentActivityName=".bundles.registerActivities.profile.ProfileActivityStudent"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.HomeworksActivityTeacher"
+            android:parentActivityName=".bundles.registerActivities.profile.ProfileActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.teacher.HomeworkActivityPerStudent"
+            android:parentActivityName=".bundles.classesActivities.teacher.StudentsActivityTeacher"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.HomeworkListStudent"
+            android:parentActivityName=".bundles.registerActivities.profile.ProfileActivityStudent"
+            />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.registerActivities.VoiceCloneSample"
+        />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.homework.ExerciseType"
+            android:parentActivityName=".bundles.classesActivities.student.HomeworkListStudent"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.homeworkExercises.AdultListHomework"
+            android:parentActivityName=".bundles.classesActivities.homework.ExerciseType"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.classesActivities.student.homeworkExercises.ChildListHomework"
+            android:parentActivityName=".bundles.classesActivities.homework.ExerciseType"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.speechRecognisionActivity.feedback.Feedback"
+            android:parentActivityName=".bundles.speechRecognisionActivity.ExerciseRecordingActivity"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".bundles.informationActivity.ArpabetChart"
+            android:parentActivityName=".bundles.menuActivities.AdultMenu"
+            />
+        <service
+            android:name="com.example.speechtherapy.bundles.services.NotificationService.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+
+</manifest>
